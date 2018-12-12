@@ -33,3 +33,7 @@
 - Tensorflow 1.11.0
 - openCV 3.4.4
 
+## Detection system weights
+
+- Download matlab [weights](https://www.cs.cmu.edu/%7Epeiyunh/tiny/hr_res101.mat)
+- Convert it to pickle file with **matconvnet_hr101_to_pickle.py**
