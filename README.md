@@ -1,6 +1,6 @@
-## Face-detection-and-tracking
+# Face-detection-and-tracking
 
-# Introduction
+## Introduction
 
 - The project consist of finding the number of unique faces appearing in a video.
 - It allows one to know the time each face is appearing.
