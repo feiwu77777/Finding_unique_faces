@@ -8,7 +8,7 @@
 - The face detection algorithm is from a research paper published in the CPVR 2017 by Peiyun Hu and Deva Ramanan. [link to paper](https://arxiv.org/abs/1612.04402) and [link to github](https://github.com/peiyunh/tiny). The version of detector in this project written in tensorflow is forked from the work of [cydonia999](https://github.com/cydonia999/Tiny_Faces_in_Tensorflow).
 - The tracking system is a KCF tracker available in openCV. [Here](https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/) is a general introduction to object tracking in openCV    
 
-## Technologies demonstration
+## Technologies Demonstration
 
 - Face detection
 
@@ -27,13 +27,13 @@
 - If IoU is low or null, a new face appeared and proceed to track it.
 - Run detection on 46th frame, repeat previous comparison and continue so on until end of video.
 
-## Software used
+## Software Used
 
 - Python 3.6.6
 - Tensorflow 1.11.0
 - openCV 3.4.4
 
-## Detection system weights
+## Detection Weights
 
-- Download matlab [weights](https://www.cs.cmu.edu/%7Epeiyunh/tiny/hr_res101.mat)
+- Download original matlab [weights](https://www.cs.cmu.edu/%7Epeiyunh/tiny/hr_res101.mat)
 - Convert it to pickle file with **matconvnet_hr101_to_pickle.py**
