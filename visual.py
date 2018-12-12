@@ -73,7 +73,7 @@ for i in range(200):
     # Display FPS on frame
     cv2.putText(frame, "FPS : " + str(int(fps)), (100,50), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (50,170,50), 2);
     #out.write(frame)
-    # Display result
+    ## Display result
     cv2.namedWindow('Tracking',cv2.WINDOW_NORMAL)
     cv2.resizeWindow('Tracking', 1000,600)
     cv2.imshow("Tracking", frame)
