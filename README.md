@@ -12,7 +12,7 @@
 
 - Face detection
 
-![fg](https://user-images.githubusercontent.com/34350063/49844470-17f12400-fdfe-11e8-8c68-ababd1327313.png)
+![outi](https://user-images.githubusercontent.com/34350063/49846728-a8803200-fe07-11e8-897f-2084d2d6b984.jpg)
 
 - Object tracking
 
