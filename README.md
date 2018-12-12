@@ -18,4 +18,13 @@
 
 ![ezgif com-video-to-gif 1](https://user-images.githubusercontent.com/34350063/49845896-a3b97f00-fe03-11e8-9ed0-06590626bf96.gif)
 
+## Methodology
+
+- Example video of 20 seconds, 23 FPS, 460 frames.
+- Run detection on first frame.
+- Track a face through entire video, save tracker window every seconds (every 23 frames).
+- Run detection on the 23th frame, compare IoU of detection window and tracker window.
+- If IoU is low or null, a new face appeared and proceed to track it.
+- Run detection on 46th frame, repeat previous comparison and continue so on until end of video.
+
 
