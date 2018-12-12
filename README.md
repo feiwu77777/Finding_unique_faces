@@ -1,4 +1,4 @@
-# Face-detection-and-tracking
+# Finding unique faces
 
 ## Introduction
 
