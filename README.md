@@ -27,4 +27,9 @@
 - If IoU is low or null, a new face appeared and proceed to track it.
 - Run detection on 46th frame, repeat previous comparison and continue so on until end of video.
 
+## Software used
+
+- Python 3.6.6
+- Tensorflow 1.11.0
+- openCV 3.4.4
 
