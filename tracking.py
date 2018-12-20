@@ -18,7 +18,7 @@ def same(box1,box2):
     iou = inter_area/union_area
     return iou
 
-cap = cv2.VideoCapture("test_track.mp4")
+cap = cv2.VideoCapture("test_video.mp4")
 if not cap.isOpened():
     print("Could not open video")
     sys.exit()
