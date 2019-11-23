@@ -20,6 +20,7 @@
 
 ## Methodology
 
+- Use tracking.py to track faces in video
 - Example video of 20 seconds, 23 FPS, 460 frames.
 - Run detection on first frame.
 - Track a face through entire video, save tracker window every seconds (every 23 frames).
